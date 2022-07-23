@@ -4,11 +4,11 @@ import React from 'react'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-diamond"></span>
+      <span className="icon fa-cloud"></span>
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
+        <h1>NOIMO</h1>
         <p>
           A fully responsive site template designed by{' '}
           <a href="https://html5up.net">HTML5 UP</a> and released
