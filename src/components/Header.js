@@ -10,11 +10,9 @@ const Header = props => (
       <div className="inner">
         <h1>NOIMO</h1>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
+           Applying advanced analytics to solve a variety
           <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+          of business complexities problems.
         </p>
       </div>
     </div>
