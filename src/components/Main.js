@@ -33,11 +33,22 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-            Text
-            By the way, check out my <a href="#work">awesome work</a>.
+            Noimo ApS is a technology company specialised in data analytics and data engineering solutions.
+            Take a look at our <a href="#work">work</a>.
           </p>
           <p>
-            Text
+            Noimo through innovative software development helps clients with data at scale through
+            cloud native technologies and applied machine learning.
+          </p>
+          <p>
+            <b>Features:</b>
+            <ul>
+                <li>Cloud native platform development</li>
+                <li>Data engineering for data intense applications</li>
+                <li>Data science consulting and development</li>
+                <li>Data Analytics and applied ML</li>
+                <li>Microservices and application lifecycle</li>
+            </ul>
           </p>
           {close}
         </article>
