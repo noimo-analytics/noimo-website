@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
+import intro from '../images/intro.jpg'
 import work from '../images/work.jpg'
 import about from '../images/about.jpg'
 
@@ -30,7 +30,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Intro</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={intro} alt="" />
           </span>
           <p>
             Noimo ApS is a technology company specialised in data analytics and data engineering solutions.
