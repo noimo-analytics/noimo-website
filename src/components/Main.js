@@ -69,7 +69,7 @@ class Main extends React.Component {
           This diverse experience allows us to distinguish ourselves by offering comprehensive, end-to-end solutions, covering the entire spectrum from robust infrastructure design to   
           cutting-edge Machine Learning and Agentic AI implementations. We specialize in building the foundational data architectures necessary to support advanced analytics, 
           and we possess the expertise to develop and deploy sophisticated ML models and intelligent agent-based systems. Whether it's designing scalable cloud environments, implementing efficient data pipelines, 
-          or creating AI-driven applications, Noimo provides a holistic approach to transform your data into actionable insights and intelligent automation
+          or creating AI-driven applications, Noimo provides a holistic approach to transform your data into actionable insights and intelligent automation.
           </p>
           <p>
           <b>Repositories showcase our work:</b>
