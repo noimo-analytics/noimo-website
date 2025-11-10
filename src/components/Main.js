@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import intro from '../images/intro.jpg'
+import work from '../images/work.jpg'
+import about from '../images/about.jpg'
 
 class Main extends React.Component {
   render() {
@@ -30,7 +30,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Intro</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={intro} alt="" />
           </span>
           <p>
             Noimo ApS is a technology company specialised in data analytics and data engineering solutions.
@@ -62,13 +62,22 @@ class Main extends React.Component {
         >
           <h2 className="major">Work</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={work} alt="" />
           </span>
           <p>
-            Text.
+          At Noimo, we've had the privilege of providing advanced analytics services to clients across several key sectors, including pharmaceutical, financial services, and biotech.
+          This diverse experience allows us to distinguish ourselves by offering comprehensive, end-to-end solutions, covering the entire spectrum from robust infrastructure design to   
+          cutting-edge Machine Learning and Agentic AI implementations. We specialize in building the foundational data architectures necessary to support advanced analytics, 
+          and we possess the expertise to develop and deploy sophisticated ML models and intelligent agent-based systems. Whether it's designing scalable cloud environments, implementing efficient data pipelines, 
+          or creating AI-driven applications, Noimo provides a holistic approach to transform your data into actionable insights and intelligent automation.
           </p>
           <p>
-            Text
+          <b>Repositories showcase our work:</b>
+            <ul>
+                <li><a href="https://github.com/DimitrisDallas/Kubernetes" target="_blank" rel="noopener noreferrer">Kubernetes</a>: Demonstrates experience with container orchestration and cloud-native technologies</li>
+                <li><a href="https://github.com/noimo-analytics/deep-research" target="_blank" rel="noopener noreferrer">Deep Research</a>: Showcases our exploration and experimentation in deep learning and AI</li>
+                <li><a href="https://github.com/noimo-analytics/personal-assistant" target="_blank" rel="noopener noreferrer">Personal Assistant</a>: Highlights our capabilities in developing agentic AI and intelligent automation solutions</li>
+            </ul>
           </p>
           {close}
         </article>
@@ -82,10 +91,12 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={about} alt="" />
           </span>
           <p>
-            Text
+            We are a team of dedicated software engineers and data scientists passionate about building intelligent solutions. 
+            At Noimo, we specialize in leveraging the latest advancements in AI, particularly Agentic AI, to create robust, scalable, and commercially-driven systems. 
+            We thrive on tackling complex data engineering challenges, always with a focus on delivering tangible value to our clients.
           </p>
           {close}
         </article>
