@@ -75,7 +75,7 @@ class Main extends React.Component {
           <b>Repositories showcase our work:</b>
             <ul>
                 <li><a href="https://github.com/DimitrisDallas/Kubernetes" target="_blank" rel="noopener noreferrer">Kubernetes</a>: Demonstrates experience with container orchestration and cloud-native technologies</li>
-                <li><a href="https://github.com/noimo-analytics/deep-research" target="_blank" rel="noopener noreferrer">Deep Research</a>: Showcases our exploration and experimentation in deep learning and AI</li>
+                <li><a href="https://github.com/noimo-analytics/deep_research" target="_blank" rel="noopener noreferrer">Deep Research</a>: Showcases our exploration and experimentation in deep learning and AI</li>
                 <li><a href="https://github.com/noimo-analytics/personal-assistant" target="_blank" rel="noopener noreferrer">Personal Assistant</a>: Highlights our capabilities in developing agentic AI and intelligent automation solutions</li>
             </ul>
           </p>
